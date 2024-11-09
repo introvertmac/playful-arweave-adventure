@@ -1,8 +1,8 @@
-# Welcome to your GPT Engineer project
+
 
 ## Project info
 
-**URL**: https://run.gptengineer.app/projects/cced04ed-069c-4837-a133-934f2f78eb9a/improve
+
 
 ## Current Blockchain Integration
 
@@ -51,10 +51,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone [https://github.com/introvertmac/playful-arweave-adventure/](https://github.com/introvertmac/playful-arweave-adventure)
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd playful-arweave-adventure
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -88,12 +88,3 @@ This project is built with:
 - Tailwind CSS
 - Arweave SDK for blockchain integration
 
-## How can I deploy this project?
-
-All GPT Engineer projects can be deployed directly via the GPT Engineer app.
-
-Simply visit your project at [GPT Engineer](https://gptengineer.app/projects/cced04ed-069c-4837-a133-934f2f78eb9a/improve) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.gptengineer.app/tips-tricks/custom-domain/)
