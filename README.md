@@ -4,6 +4,35 @@
 
 **URL**: https://run.gptengineer.app/projects/cced04ed-069c-4837-a133-934f2f78eb9a/improve
 
+## Current Blockchain Integration
+
+This project currently uses Arweave for storing high scores on the blockchain. The integration works through:
+
+1. **Score Storage**: When players complete puzzles, their scores are stored on the Arweave blockchain using the `saveScore` function in `src/utils/arweave.ts`.
+2. **Transaction Creation**: Each score is stored as a JSON transaction containing:
+   - The player's score
+   - A timestamp
+3. **High Score Retrieval**: The `getHighScores` function queries the Arweave network using GraphQL to fetch the top 10 scores.
+
+## Future AO Integration Possibilities
+
+While the game currently only uses Arweave, it could be enhanced with AO (Arweave Operating System) integration in several ways:
+
+1. **Smart Contract Integration**: 
+   - Implement game logic and scoring rules as AO processes
+   - Create verifiable puzzle completion validation
+   - Enable player rankings and achievements
+
+2. **Multiplayer Features**:
+   - Player-vs-player hacking challenges
+   - Real-time leaderboards
+   - Tournament systems
+
+3. **Token Economics**:
+   - Reward players with custom tokens for completing challenges
+   - Enable in-game purchases of power-ups or new puzzles
+   - Create a marketplace for trading hacking tools
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -52,13 +81,14 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with:
 
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+- Arweave SDK for blockchain integration
 
 ## How can I deploy this project?
 
