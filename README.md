@@ -34,14 +34,12 @@ While the game currently only uses Arweave, it could be enhanced with AO (Arweav
    - Create a marketplace for trading hacking tools
 
 ## How can I edit this code?
-
+ 
 There are several ways of editing your application.
 
-**Use GPT Engineer**
+**Use your preferred IDE**
 
-Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/cced04ed-069c-4837-a133-934f2f78eb9a/improve) and start prompting.
-
-Changes made via gptengineer.app will be committed automatically to this repo.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the GPT Engineer UI.
 
 **Use your preferred IDE**
 
